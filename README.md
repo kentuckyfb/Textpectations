@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A WhatsApp Chat Analyzer that turns your chat history into fun, Spotify Wrapped-style insights.
 
-## Getting Started
+# How It Works
 
-First, run the development server:
+Input: Upload a WhatsApp chat export (.txt file).
+Analyze: Processes the chat to extract detailed stats.
+Display: Presents insights in a visually appealing, interactive format.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Key Functions
+Chat Analysis:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Total messages & words per user.
+Most used emoji & common word.
+Average message length & longest message.
+Most active day & hour.
+Total media shared.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Visualizations:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Bar chart for message counts.
+User-Friendly Features:
+Dark theme with glassmorphism effects.
+Responsive design for all devices.
+"Try Another Chat" button for quick resets.
 
-## Learn More
+Built with Next.js, Tailwind CSS, and Recharts for a modern, customizable experience.
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/user-attachments/assets/b4efb21b-551b-41a9-bb6f-69b87427e545)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/26dc4404-185e-4019-895a-a7bc92e92a75)
