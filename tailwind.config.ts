@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'dark-blue': 'rgba(13, 42, 67, 0.8)', // Dark blue with transparency
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

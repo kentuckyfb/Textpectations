@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  background-color: #111827; /* A shade of black (bg-gray-900) */
+  color: #ffffff; /* White text */
+  font-family: 'Poppins', sans-serif; /* Use a modern font */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Dark gray track */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6; /* Blue thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb; /* Darker blue on hover */
+}
+
+/* Glassmorphism effect for containers */
+.glassmorphism {
+  background: rgba(31, 41, 55, 0.7); /* Dark gray with transparency */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.2); /* Blue border with transparency */
+}
+
+/* Links and buttons */
+a {
+  color: #3b82f6; /* Blue links */
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #2563eb; /* Darker blue on hover */
+}
+
+button {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
